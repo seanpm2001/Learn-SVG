@@ -32,10 +32,6 @@
 *.css linguist-detectable=true
 *.css linguist-documentation=false
 *.css linguist-language=CSS
-# Less stylesheet file
-*.less linguist-detectable=true
-*.less linguist-documentation=false
-*.less linguist-language=Less
 # JSON (JavaScript Object Notation) source file
 *.json linguist-detectable=false
 *.json linguist-documentation=false
@@ -85,8 +81,7 @@
 *.makefile linguist-documentation=false
 *.makefile linguist-language=Makefile
 # SVG (Scalable Vector Graphics) image file
-# Do not include, as it would become the 100% dominant language and would hide all the other languages as "other"
-*.svg linguist-detectable=false
+*.svg linguist-detectable=true
 *.svg linguist-documentation=false
 *.svg linguist-language=SVG
 # Git Configuration files
@@ -165,6 +160,6 @@
 
 # File info
 # File type: gitattributes file (.gitattributes)
-# File version: 4 (2022, Tuesday, June 28th at 2:32 pm PST)
-# Line count (including blank lines and compiler line): 171
+# File version: 5 (2022, Thursday, September 15th at 2:17 pm PST)
+# Line count (including blank lines and compiler line): 166
 # End of script
